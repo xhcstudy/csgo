@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pic/icons8-steamquit-100.png</file>
+        <file>pic/icons8-steam最小化-100.png</file>
+        <file>pic/icons8-播放-100.png</file>
+        <file>pic/icons8-乘-100.png</file>
+        <file>pic/icons8-倒带-100.png</file>
+        <file>pic/icons8-高音量-100.png</file>
+        <file>pic/icons8-加法-100.png</file>
+        <file>pic/icons8-减法-100.png</file>
+        <file>pic/icons8-静音-100.png</file>
+        <file>pic/icons8-快进-100.png</file>
+        <file>pic/icons8-完美时刻-100.png</file>
+        <file>pic/icons8-暂停-100.png</file>
+        <file>pic/steam_icon.jpg</file>
+        <file>pic/steam_icon.png</file>
+        <file>pic/steam登录.jpg</file>
+        <file>pic/steam库.jpg</file>
+        <file>pic/进入cs.jpg</file>
+        <file>pic/开始csgo.jpg</file>
+        <file>pic/桌面.jpg</file>
+        <file>pic/icons8-steam-100.png</file>
+        <file>pic/icons8-video最小化-100.png</file>
+        <file>pic/videoPT.png</file>
+        <file>pic/ct or t.jpg</file>
+        <file>pic/chose1_CT.jpg</file>
+        <file>pic/choseA.jpg</file>
+        <file>pic/choseB.jpg</file>
+        <file>pic/CTwin.jpg</file>
+        <file>pic/Twin.jpg</file>
+        <file>pic/chose2_T.jpg</file>
+        <file>pic/banana.jpg</file>
+        <file>pic/side.jpg</file>
+        <file>pic/电源.jpg</file>
+        <file>pic/icons8-关闭-100.png</file>
+        <file>pic/csgo界面.jpg</file>
+    </qresource>
+</RCC>

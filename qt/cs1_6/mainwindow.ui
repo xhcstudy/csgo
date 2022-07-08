@@ -1,0 +1,1421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#page
+{
+	border-image: url(:/pic/桌面.jpg);}
+QWidget#page_2
+{
+	border-image: url(:/pic/桌面.jpg);}
+QWidget#page_3
+{
+	border-image: url(:/pic/桌面.jpg);}
+QWidget#page_4
+{
+	border-image: url(:/pic/进入cs.jpg);}
+QWidget#page_5
+{
+	border-image: url(:/pic/桌面.jpg);}
+QWidget#page_steam_Mini
+{
+	border-image: url(:/pic/桌面.jpg);}
+QWidget#page_video_Mini
+{
+	border-image: url(:/pic/桌面.jpg);}
+QWidget#page_6
+{
+	border-image: url(:/pic/csgo界面.jpg);}
+QWidget#page_8
+{
+	border-image: url(:/pic/ct or t.jpg);}
+QWidget#page_9
+{
+	border-image: url(:/pic/chose1_CT.jpg);}
+QWidget#page_7
+{
+background-color: rgb(0, 0, 0);}
+QWidget#page_10
+{
+background-color: rgb(0, 0, 0);}
+QWidget#page_11
+{
+background-color: rgb(0, 0, 0);}
+QWidget#page_12
+{
+border-image: url(:/pic/choseA.jpg);}
+QWidget#page_15
+{
+border-image: url(:/pic/choseB.jpg);}
+QWidget#page_round2CTwin
+{
+border-image: url(:/pic/CTwin.jpg);}
+QWidget#page_round2Twin
+{
+border-image: url(:/pic/Twin.jpg);}
+QWidget#page_round2CTwin
+{background-color: rgb(0, 0, 0);}
+QWidget#page_18
+{
+border-image: url(:/pic/chose2_T.jpg);}
+QWidget#page_21
+{
+border-image: url(:/pic/banana.jpg);}
+QWidget#page_22
+{
+border-image: url(:/pic/side.jpg);}
+
+</string>
+    </property>
+    <property name="currentIndex">
+     <number>7</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QPushButton" name="steam">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>10</y>
+        <width>61</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#steam:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:1 rgba(0, 0, 0, 0));}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>120</y>
+        <width>361</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#widget
+{
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0.386598 rgba(30, 30, 32, 255), stop:1 rgba(81, 82, 90, 255));
+}</string>
+      </property>
+      <widget class="QLabel" name="labelsteam">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>101</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#labelsteam
+{
+	border-image: url(:/pic/steam_icon.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="editUser">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>120</y>
+         <width>113</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="editPWD">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>160</y>
+         <width>113</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelUser">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>120</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(238, 238, 236);</string>
+       </property>
+       <property name="text">
+        <string>账户名称</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelPWD">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>160</y>
+         <width>67</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+color: rgb(238, 238, 236);</string>
+       </property>
+       <property name="text">
+        <string>        密码</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>200</y>
+         <width>92</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(238, 238, 236);
+alternate-background-color: rgb(238, 238, 236);</string>
+       </property>
+       <property name="text">
+        <string>记住密码</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnLogin">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>240</y>
+         <width>89</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="mouseTracking">
+        <bool>false</bool>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(58, 63, 71);
+color: rgb(238, 238, 236);</string>
+       </property>
+       <property name="text">
+        <string>登录</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnExit">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>240</y>
+         <width>89</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(58, 63, 71);
+color: rgb(238, 238, 236);</string>
+       </property>
+       <property name="text">
+        <string>取消</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="STEAMtxt">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>30</y>
+         <width>131</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 24pt &quot;Waree&quot;;
+color: rgb(238, 238, 236);</string>
+       </property>
+       <property name="text">
+        <string>STEAM</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>70</y>
+        <width>721</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#widget_2
+{
+	border-image: url(:/pic/steam库.jpg);}</string>
+      </property>
+      <widget class="QPushButton" name="btnStart">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>80</y>
+         <width>111</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#btnStart
+{
+	
+border-image: url(:/pic/开始csgo.jpg);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnReturnSteam">
+       <property name="geometry">
+        <rect>
+         <x>700</x>
+         <y>0</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#btnReturnSteam{
+border-image: url(:/pic/icons8-steamquit-100.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnperfecttime">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>80</y>
+         <width>111</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#btnperfecttime{
+border-image: url(:/pic/videoPT.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnMiniSteam">
+       <property name="geometry">
+        <rect>
+         <x>678</x>
+         <y>0</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#btnMiniSteam{
+border-image: url(:/pic/icons8-steam最小化-100.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QLabel" name="labelcsopenvideo">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_steam_Mini">
+     <widget class="QPushButton" name="steamMini">
+      <property name="geometry">
+       <rect>
+        <x>155</x>
+        <y>564</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#steamMini
+{
+	
+border-image: url(:/pic/icons8-steam-100.png);}
+QWidget#steamMini:hover{
+	
+	background-color: rgb(230,230,230);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="steamMini_2">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>10</y>
+        <width>51</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#steamMini
+{
+	
+border-image: url(:/pic/icons8-steam-100.png);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_video_Mini">
+     <widget class="QPushButton" name="videoMini">
+      <property name="geometry">
+       <rect>
+        <x>155</x>
+        <y>562</y>
+        <width>35</width>
+        <height>35</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#videoMini
+{
+	
+border-image: url(:/pic/icons8-完美时刻-100.png);}
+QWidget#videoMini:hover{
+	
+	background-color: rgb(230,230,230);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="videoMini_steam">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>565</y>
+        <width>30</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#videoMini_steam
+{
+	
+border-image: url(:/pic/icons8-steam-100.png);}
+QWidget#videoMini_steam:hover{
+	
+	background-color: rgb(230,230,230);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_5">
+     <widget class="QLabel" name="Video">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>25</y>
+        <width>700</width>
+        <height>500</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#Video
+{
+	background-color: rgb(0, 0, 0);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="VideoBackG" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>700</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#VideoBackG
+{
+	background-color: rgb(255, 255, 255);}</string>
+      </property>
+      <widget class="QPushButton" name="btnPlayMute">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>560</y>
+         <width>30</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#btnPlayMute{
+	
+	background-color: rgb(255, 255, 255);
+}
+
+QWidget#btnPlayMute:hover{
+	
+	background-color: rgb(51, 153, 255);
+}
+QWidget#btnPlayMute{
+border-image: url(:/pic/icons8-高音量-100.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnPlayQuit">
+       <property name="geometry">
+        <rect>
+         <x>675</x>
+         <y>3</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#btnPlayQuit
+{
+	border-image: url(:/pic/icons8-乘-100.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnPause">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>560</y>
+         <width>30</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#btnPause{
+	
+	background-color: rgb(255, 255, 255);
+}
+
+QWidget#btnPause:hover{
+	
+	background-color: rgb(51, 153, 255);
+}
+QWidget#btnPause{
+border-image: url(:/pic/icons8-播放-100.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QProgressBar" name="progressBar_2">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>530</y>
+         <width>521</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="value">
+        <number>0</number>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnPlaySeek1">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>560</y>
+         <width>30</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#btnPlaySeek1{
+	
+	background-color: rgb(255, 255, 255);
+}
+
+QWidget#btnPlaySeek1:hover{
+	
+	background-color: rgb(51, 153, 255);
+}
+QWidget#btnPlaySeek1{
+border-image: url(:/pic/icons8-快进-100.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnPlayVol2">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>560</y>
+         <width>30</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#btnPlayVol2{
+	
+	background-color: rgb(255, 255, 255);
+}
+
+QWidget#btnPlayVol2:hover{
+	
+	background-color: rgb(51, 153, 255);
+}
+QWidget#btnPlayVol2{
+border-image: url(:/pic/icons8-减法-100.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnPlaySeek2">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>560</y>
+         <width>30</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#btnPlaySeek2{
+	
+	background-color: rgb(255, 255, 255);
+}
+
+QWidget#btnPlaySeek2:hover{
+	
+	background-color: rgb(51, 153, 255);
+}
+QWidget#btnPlaySeek2{
+border-image: url(:/pic/icons8-倒带-100.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnPlayVol1">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>560</y>
+         <width>30</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#btnPlayVol1{
+	
+	background-color: rgb(255, 255, 255);
+}
+
+QWidget#btnPlayVol1:hover{
+	
+	background-color: rgb(51, 153, 255);
+}
+QWidget#btnPlayVol1{
+border-image: url(:/pic/icons8-加法-100.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnPlayOpen">
+       <property name="geometry">
+        <rect>
+         <x>590</x>
+         <y>560</y>
+         <width>89</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>open...</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnPlay">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>530</y>
+         <width>89</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>play</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelVideoTitle">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>700</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#labelVideoTitle
+{
+	background-color: rgb(61 ,60 ,55);
+color: rgb(255, 255, 255);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnPlayMini">
+       <property name="geometry">
+        <rect>
+         <x>650</x>
+         <y>4</y>
+         <width>18</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget#btnPlayMini
+{
+	border-image: url(:/pic/icons8-video最小化-100.png);}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <zorder>labelVideoTitle</zorder>
+      <zorder>btnPlayMute</zorder>
+      <zorder>btnPause</zorder>
+      <zorder>progressBar_2</zorder>
+      <zorder>btnPlaySeek1</zorder>
+      <zorder>btnPlayVol2</zorder>
+      <zorder>btnPlaySeek2</zorder>
+      <zorder>btnPlayVol1</zorder>
+      <zorder>btnPlayOpen</zorder>
+      <zorder>btnPlay</zorder>
+      <zorder>btnPlayQuit</zorder>
+      <zorder>btnPlayMini</zorder>
+     </widget>
+     <zorder>VideoBackG</zorder>
+     <zorder>Video</zorder>
+    </widget>
+    <widget class="QWidget" name="page_6">
+     <widget class="QPushButton" name="btncsgostart">
+      <property name="geometry">
+       <rect>
+        <x>667</x>
+        <y>560</y>
+        <width>116</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#btncsgostart:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:1 rgba(0, 0, 0, 0));}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btncsgoquit">
+      <property name="geometry">
+       <rect>
+        <x>6</x>
+        <y>555</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#btncsgoquit:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:1 rgba(0, 0, 0, 0));}
+QWidget#btncsgoquit
+{
+	border-image: url(:/pic/电源.jpg);}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_7">
+     <widget class="QLabel" name="labelcsgoexe">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_8">
+     <widget class="QPushButton" name="btnchoseT">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>110</y>
+        <width>191</width>
+        <height>411</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#btnchoseT:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:1 rgba(0, 0, 0, 0));}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnchoseCT">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>100</y>
+        <width>221</width>
+        <height>431</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget#btnchoseCT:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:1 rgba(0, 0, 0, 0));}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnquit">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>550</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/pic/icons8-关闭-100.png);
+QWidget#btnquit:hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:1 rgba(0, 0, 0, 0));}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_9">
+     <widget class="QPushButton" name="btnchoseA">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>470</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 0));
+color: rgb(255, 255, 255);
+font: 25pt &quot;Ubuntu&quot;;</string>
+      </property>
+      <property name="text">
+       <string>A. 防守A点</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnchoseB">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>470</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 0));
+color: rgb(255, 255, 255);
+font: 25pt &quot;Ubuntu&quot;;</string>
+      </property>
+      <property name="text">
+       <string>B.防守B点</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_10">
+     <widget class="QLabel" name="labelgoA">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_11">
+     <widget class="QLabel" name="labelgoB">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_12">
+     <widget class="QPushButton" name="btnchosehole">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>470</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 0));
+color: rgb(255, 255, 255);
+font: 25pt &quot;Ubuntu&quot;;</string>
+      </property>
+      <property name="text">
+       <string>B.守大坑</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnchoseAbag">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>470</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 0));
+color: rgb(255, 255, 255);
+font: 25pt &quot;Ubuntu&quot;;</string>
+      </property>
+      <property name="text">
+       <string>A. 守包点</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_13">
+     <widget class="QLabel" name="labelchoseAbag">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_14">
+     <widget class="QLabel" name="labelchosehole">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_15">
+     <widget class="QPushButton" name="btnchosekeepgun">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>470</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 0));
+color: rgb(255, 255, 255);
+font: 25pt &quot;Ubuntu&quot;;</string>
+      </property>
+      <property name="text">
+       <string>B.保枪</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnchosebackA">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>470</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 0));
+color: rgb(255, 255, 255);
+font: 25pt &quot;Ubuntu&quot;;</string>
+      </property>
+      <property name="text">
+       <string>A. 回防</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_16">
+     <widget class="QLabel" name="labelchosebackA">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_17">
+     <widget class="QLabel" name="labelchosekeepgun">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_18">
+     <widget class="QPushButton" name="btnchosebanana">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>470</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 0));
+color: rgb(255, 255, 255);
+font: 21pt &quot;Ubuntu&quot;;</string>
+      </property>
+      <property name="text">
+       <string>A. 抢香蕉道</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnchoseside">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>470</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 0));
+color: rgb(255, 255, 255);
+font: 25pt &quot;Ubuntu&quot;;</string>
+      </property>
+      <property name="text">
+       <string>B.控侧道</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_19">
+     <widget class="QLabel" name="labelbanana">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_20">
+     <widget class="QLabel" name="labelside">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_21">
+     <widget class="QPushButton" name="btnchoseattackA">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>470</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 0));
+color: rgb(255, 255, 255);
+font: 25pt &quot;Ubuntu&quot;;</string>
+      </property>
+      <property name="text">
+       <string>A. 进攻A点</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnchoseattackB">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>470</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 0));
+color: rgb(255, 255, 255);
+font: 25pt &quot;Ubuntu&quot;;</string>
+      </property>
+      <property name="text">
+       <string>B.进攻B点</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_22">
+     <widget class="QPushButton" name="btnchoseattackB_3">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>470</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 0));
+color: rgb(255, 255, 255);
+font: 25pt &quot;Ubuntu&quot;;</string>
+      </property>
+      <property name="text">
+       <string>B.进攻B点</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnchoseattackA_2">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>470</y>
+        <width>160</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(255, 255, 255, 0));
+color: rgb(255, 255, 255);
+font: 25pt &quot;Ubuntu&quot;;</string>
+      </property>
+      <property name="text">
+       <string>A. 进攻A点</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_23">
+     <widget class="QLabel" name="labelattackA">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_24">
+     <widget class="QLabel" name="labelattackB">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_round2CTwin">
+     <widget class="QLabel" name="labelCTwin">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(136, 138, 133);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnCTwin">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/pic/CTwin.jpg);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_round2Twin">
+     <widget class="QLabel" name="labelTwin">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnTwin">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>800</width>
+        <height>600</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/pic/Twin.jpg);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
