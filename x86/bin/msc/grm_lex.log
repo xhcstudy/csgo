@@ -1,0 +1,15 @@
+============================================================
+Time  2010/10/01 00:46:44 831 
+============================================================
+[2010/10/01 00:46:44 832] grm_lex    264  SYS_MSG_LOAD  
+[2010/10/01 00:46:44 834] grm_lex    281  SYS_MSG_REGCB  
+[2010/10/01 00:46:44 836] grm_lex    267  SYS_MSG_UNLOAD  
+[2010/10/01 00:46:44 842] grm_lex    281  SYS_MSG_REGCB  
+[2010/10/01 00:46:44 845] grm_lex    251  ISR_MSG_BUILDGRAMMAR  
+[2010/10/01 00:46:44 846] grm_lex    100  grm_type :  bnf  
+[2010/10/01 00:46:44 847] grm_lex    106  engine_type  :  local  
+[2010/10/01 00:46:44 847] grm_lex    106  asr_res_path  :  fo|res/asr/common.jet  
+[2010/10/01 00:46:44 848] grm_lex    106  sample_rate  :  16000  
+[2010/10/01 00:46:44 850] grm_lex    106  grm_build_path  :  res/asr/GrmBuilld  
+[2010/10/01 00:46:44 877] grm_lex    254  ISR_MSG_BUILDGRAMMAR ret =  0  
+[2010/10/01 00:46:44 995] grm_lex    71   0  cmd  

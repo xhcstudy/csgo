@@ -1,0 +1,273 @@
+============================================================
+Time  2010/10/01 00:46:49 550 
+============================================================
+[2010/10/01 00:46:49 551] isr        1641 isr loaded!  
+[2010/10/01 00:46:49 552] isr        1624 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(9b596e0) 
+[2010/10/01 00:46:49 559] isr        1525 ASR_MSG_SSB  
+[2010/10/01 00:46:49 560] isr        1070 session_begin() [in], params:   engine_type = local, asr_res_path = fo|res/asr/common.jet, sample_rate = 16000, grm_build_path = res/asr/GrmBuilld, local_grammar = cmd, result_type = xml, result_encoding = UTF-8,   nil  
+[2010/10/01 00:46:49 561] isr        938  vad_set [in]  
+[2010/10/01 00:46:49 561] isr        973  vad_enable :  true  
+[2010/10/01 00:46:49 562] isr        991  vad_bos :  10000  
+[2010/10/01 00:46:49 563] isr        992  vad_eos :  2000  
+[2010/10/01 00:46:49 563] isr        897  enable_vad [in]  
+[2010/10/01 00:46:49 567] isr        929  vad enabled!  2000  10000  
+[2010/10/01 00:46:49 570] isr        932  enable_vad [out]  
+[2010/10/01 00:46:49 570] isr        998  vad_set [out] | ret =  0  
+[2010/10/01 00:46:49 571] isr        1174 cur_engine_type =   local  
+[2010/10/01 00:46:49 571] isr        1003 local_session_begin  
+[2010/10/01 00:46:49 630] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:49 637] isr        1546 6400  1  
+[2010/10/01 00:46:49 638] isr        1550 once_bytes:   6400  
+[2010/10/01 00:46:49 650] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:49 656] isr        1546 6400  2  
+[2010/10/01 00:46:49 663] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:49 666] isr        1546 6400  2  
+[2010/10/01 00:46:49 673] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:49 677] isr        1546 6400  2  
+[2010/10/01 00:46:49 681] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:49 690] isr        1546 6400  2  
+[2010/10/01 00:46:49 695] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:49 698] isr        1546 6400  2  
+[2010/10/01 00:46:49 703] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:49 706] isr        1546 6400  2  
+[2010/10/01 00:46:49 710] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:49 712] isr        1546 6400  2  
+[2010/10/01 00:46:49 716] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:49 719] isr        1546 6400  2  
+[2010/10/01 00:46:49 724] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:49 726] isr        1546 6400  2  
+[2010/10/01 00:46:49 731] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:49 732] isr        1546 6400  2  
+[2010/10/01 00:46:49 737] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:49 740] isr        1546 6400  2  
+[2010/10/01 00:46:49 749] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:49 750] isr        1546 6400  2  
+[2010/10/01 00:46:49 755] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:49 765] isr        1546 6400  2  
+[2010/10/01 00:46:49 769] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:49 775] isr        1546 6400  2  
+[2010/10/01 00:46:49 781] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:49 782] isr        1546 0  4  
+[2010/10/01 00:46:49 785] isr        1579 aud end, USER  
+[2010/10/01 00:46:49 851] isr        845  [aud] speech start  
+[2010/10/01 00:46:49 926] isr        855  [aud] speech end  
+[2010/10/01 00:46:49 931] isr        1618 ASR_MSG_GRSLT,   local  
+[2010/10/01 00:46:49 932] isr        1297 0  nil  2  
+[2010/10/01 00:46:50 036] isr        1618 ASR_MSG_GRSLT,   local  
+[2010/10/01 00:46:50 037] isr        1297 0  nil  2  
+[2010/10/01 00:46:50 147] isr        1618 ASR_MSG_GRSLT,   local  
+[2010/10/01 00:46:50 148] isr        1297 0  nil  2  
+[2010/10/01 00:46:50 264] isr        1618 ASR_MSG_GRSLT,   local  
+[2010/10/01 00:46:50 265] isr        1297 0  nil  2  
+[2010/10/01 00:46:50 329] isr        759  local_cbmsg_handler  ,msg=  406  param1=  nil  
+[2010/10/01 00:46:50 367] isr        759  local_cbmsg_handler  ,msg=  407  param1=  nil  
+[2010/10/01 00:46:50 371] isr        661  process_result call:  local  nil  0  2  
+[2010/10/01 00:46:50 374] isr        1618 ASR_MSG_GRSLT,   local  
+[2010/10/01 00:46:50 375] isr        1297 0  nil  5  
+[2010/10/01 00:46:50 383] isr        759  local_cbmsg_handler  ,msg=  408  param1=  nil  
+[2010/10/01 00:46:50 384] isr        774  local session recognized end!  
+[2010/10/01 00:46:50 481] isr        1621 ASR_MSG_SSE,   local  
+[2010/10/01 00:46:50 481] isr        1346 session_end() [in]  
+[2010/10/01 00:46:50 481] isr        1367 local_session_end() [in]  
+[2010/10/01 00:46:50 484] isr        1404 ASR_LOCAL_MSG_SSE net_type  nil  
+[2010/10/01 00:46:50 487] isr        1649 isr unload!  
+============================================================
+Time  2010/10/01 00:46:53 555 
+============================================================
+[2010/10/01 00:46:53 556] isr        1641 isr loaded!  
+[2010/10/01 00:46:53 558] isr        1624 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(9b562f0) 
+[2010/10/01 00:46:53 563] isr        1525 ASR_MSG_SSB  
+[2010/10/01 00:46:53 564] isr        1070 session_begin() [in], params:   engine_type = local, asr_res_path = fo|res/asr/common.jet, sample_rate = 16000, grm_build_path = res/asr/GrmBuilld, local_grammar = cmd, result_type = xml, result_encoding = UTF-8,   nil  
+[2010/10/01 00:46:53 566] isr        938  vad_set [in]  
+[2010/10/01 00:46:53 569] isr        973  vad_enable :  true  
+[2010/10/01 00:46:53 571] isr        991  vad_bos :  10000  
+[2010/10/01 00:46:53 572] isr        992  vad_eos :  2000  
+[2010/10/01 00:46:53 574] isr        897  enable_vad [in]  
+[2010/10/01 00:46:53 579] isr        929  vad enabled!  2000  10000  
+[2010/10/01 00:46:53 580] isr        932  enable_vad [out]  
+[2010/10/01 00:46:53 581] isr        998  vad_set [out] | ret =  0  
+[2010/10/01 00:46:53 582] isr        1174 cur_engine_type =   local  
+[2010/10/01 00:46:53 583] isr        1003 local_session_begin  
+[2010/10/01 00:46:53 624] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:53 625] isr        1546 6400  1  
+[2010/10/01 00:46:53 626] isr        1550 once_bytes:   6400  
+[2010/10/01 00:46:53 635] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:53 636] isr        1546 6400  2  
+[2010/10/01 00:46:53 639] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:53 643] isr        1546 6400  2  
+[2010/10/01 00:46:53 647] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:53 650] isr        1546 6400  2  
+[2010/10/01 00:46:53 654] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:53 658] isr        1546 6400  2  
+[2010/10/01 00:46:53 661] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:53 665] isr        1546 6400  2  
+[2010/10/01 00:46:53 673] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:53 676] isr        1546 6400  2  
+[2010/10/01 00:46:53 680] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:53 685] isr        1546 6400  2  
+[2010/10/01 00:46:53 689] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:53 693] isr        1546 6400  2  
+[2010/10/01 00:46:53 699] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:53 700] isr        1546 6400  2  
+[2010/10/01 00:46:53 707] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:53 708] isr        1546 6400  2  
+[2010/10/01 00:46:53 713] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:53 723] isr        1546 6400  2  
+[2010/10/01 00:46:53 727] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:53 731] isr        1546 6400  2  
+[2010/10/01 00:46:53 738] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:53 740] isr        1546 6400  2  
+[2010/10/01 00:46:53 747] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:53 749] isr        1546 6400  2  
+[2010/10/01 00:46:53 759] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:53 762] isr        1546 0  4  
+[2010/10/01 00:46:53 763] isr        1579 aud end, USER  
+[2010/10/01 00:46:53 815] isr        845  [aud] speech start  
+[2010/10/01 00:46:54 032] isr        855  [aud] speech end  
+[2010/10/01 00:46:54 046] isr        1618 ASR_MSG_GRSLT,   local  
+[2010/10/01 00:46:54 049] isr        1297 0  nil  2  
+[2010/10/01 00:46:54 164] isr        759  local_cbmsg_handler  ,msg=  404  param1=  nil  
+[2010/10/01 00:46:54 166] isr        759  local_cbmsg_handler  ,msg=  406  param1=  nil  
+[2010/10/01 00:46:54 168] isr        1618 ASR_MSG_GRSLT,   local  
+[2010/10/01 00:46:54 169] isr        1297 0  nil  2  
+[2010/10/01 00:46:54 229] isr        759  local_cbmsg_handler  ,msg=  407  param1=  udata(9bbc194) 
+[2010/10/01 00:46:54 232] isr        661  process_result call:  local  udata(9bbc194) 96  2  
+[2010/10/01 00:46:54 234] isr        759  local_cbmsg_handler  ,msg=  408  param1=  nil  
+[2010/10/01 00:46:54 234] isr        774  local session recognized end!  
+[2010/10/01 00:46:54 274] isr        1618 ASR_MSG_GRSLT,   local  
+[2010/10/01 00:46:54 275] isr        1297 0  udata(9bbc194) 5  
+[2010/10/01 00:46:54 383] isr        1621 ASR_MSG_SSE,   local  
+[2010/10/01 00:46:54 384] isr        1346 session_end() [in]  
+[2010/10/01 00:46:54 384] isr        1367 local_session_end() [in]  
+[2010/10/01 00:46:54 388] isr        1404 ASR_LOCAL_MSG_SSE net_type  nil  
+[2010/10/01 00:46:54 391] isr        1649 isr unload!  
+============================================================
+Time  2010/10/01 00:46:58 771 
+============================================================
+[2010/10/01 00:46:58 771] isr        1641 isr loaded!  
+[2010/10/01 00:46:58 777] isr        1624 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(9bbb8c0) 
+[2010/10/01 00:46:58 779] isr        1525 ASR_MSG_SSB  
+[2010/10/01 00:46:58 780] isr        1070 session_begin() [in], params:   engine_type = local, asr_res_path = fo|res/asr/common.jet, sample_rate = 16000, grm_build_path = res/asr/GrmBuilld, local_grammar = cmd, result_type = xml, result_encoding = UTF-8,   nil  
+[2010/10/01 00:46:58 780] isr        938  vad_set [in]  
+[2010/10/01 00:46:58 786] isr        973  vad_enable :  true  
+[2010/10/01 00:46:58 787] isr        991  vad_bos :  10000  
+[2010/10/01 00:46:58 787] isr        992  vad_eos :  2000  
+[2010/10/01 00:46:58 788] isr        897  enable_vad [in]  
+[2010/10/01 00:46:58 795] isr        929  vad enabled!  2000  10000  
+[2010/10/01 00:46:58 796] isr        932  enable_vad [out]  
+[2010/10/01 00:46:58 797] isr        998  vad_set [out] | ret =  0  
+[2010/10/01 00:46:58 797] isr        1174 cur_engine_type =   local  
+[2010/10/01 00:46:58 797] isr        1003 local_session_begin  
+[2010/10/01 00:46:58 837] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:58 838] isr        1546 6400  1  
+[2010/10/01 00:46:58 839] isr        1550 once_bytes:   6400  
+[2010/10/01 00:46:58 847] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:58 850] isr        1546 6400  2  
+[2010/10/01 00:46:58 858] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:58 859] isr        1546 6400  2  
+[2010/10/01 00:46:58 867] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:58 868] isr        1546 6400  2  
+[2010/10/01 00:46:58 883] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:58 884] isr        1546 6400  2  
+[2010/10/01 00:46:58 888] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:58 891] isr        1546 6400  2  
+[2010/10/01 00:46:58 897] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:58 900] isr        1546 6400  2  
+[2010/10/01 00:46:58 905] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:58 908] isr        1546 6400  2  
+[2010/10/01 00:46:58 912] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:58 916] isr        1546 6400  2  
+[2010/10/01 00:46:58 920] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:58 925] isr        1546 6400  2  
+[2010/10/01 00:46:58 929] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:58 932] isr        1546 6400  2  
+[2010/10/01 00:46:58 935] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:58 938] isr        1546 6400  2  
+[2010/10/01 00:46:58 943] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:58 944] isr        1546 6400  2  
+[2010/10/01 00:46:58 948] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:58 949] isr        1546 6400  2  
+[2010/10/01 00:46:58 953] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:58 954] isr        1546 6400  2  
+[2010/10/01 00:46:58 957] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:46:58 960] isr        1546 0  4  
+[2010/10/01 00:46:58 960] isr        1579 aud end, USER  
+[2010/10/01 00:46:59 068] isr        845  [aud] speech start  
+[2010/10/01 00:46:59 156] isr        855  [aud] speech end  
+[2010/10/01 00:46:59 174] isr        1618 ASR_MSG_GRSLT,   local  
+[2010/10/01 00:46:59 176] isr        1297 0  nil  2  
+[2010/10/01 00:46:59 283] isr        1618 ASR_MSG_GRSLT,   local  
+[2010/10/01 00:46:59 284] isr        1297 0  nil  2  
+[2010/10/01 00:46:59 302] isr        759  local_cbmsg_handler  ,msg=  404  param1=  nil  
+[2010/10/01 00:46:59 304] isr        759  local_cbmsg_handler  ,msg=  406  param1=  nil  
+[2010/10/01 00:46:59 395] isr        759  local_cbmsg_handler  ,msg=  407  param1=  udata(9b3c244) 
+[2010/10/01 00:46:59 397] isr        661  process_result call:  local  udata(9b3c244) 59  2  
+[2010/10/01 00:46:59 401] isr        759  local_cbmsg_handler  ,msg=  408  param1=  nil  
+[2010/10/01 00:46:59 401] isr        774  local session recognized end!  
+[2010/10/01 00:46:59 403] isr        1618 ASR_MSG_GRSLT,   local  
+[2010/10/01 00:46:59 404] isr        1297 0  udata(9b3c244) 5  
+[2010/10/01 00:46:59 510] isr        1621 ASR_MSG_SSE,   local  
+[2010/10/01 00:46:59 510] isr        1346 session_end() [in]  
+[2010/10/01 00:46:59 511] isr        1367 local_session_end() [in]  
+[2010/10/01 00:46:59 514] isr        1404 ASR_LOCAL_MSG_SSE net_type  nil  
+[2010/10/01 00:46:59 519] isr        1649 isr unload!  
+============================================================
+Time  2010/10/01 00:47:05 606 
+============================================================
+[2010/10/01 00:47:05 606] isr        1641 isr loaded!  
+[2010/10/01 00:47:05 608] isr        1624 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(9afc5a0) 
+[2010/10/01 00:47:05 611] isr        1525 ASR_MSG_SSB  
+[2010/10/01 00:47:05 611] isr        1070 session_begin() [in], params:   engine_type = local, asr_res_path = fo|res/asr/common.jet, sample_rate = 16000, grm_build_path = res/asr/GrmBuilld, local_grammar = cmd, result_type = xml, result_encoding = UTF-8,   nil  
+[2010/10/01 00:47:05 612] isr        938  vad_set [in]  
+[2010/10/01 00:47:05 612] isr        973  vad_enable :  true  
+[2010/10/01 00:47:05 614] isr        991  vad_bos :  10000  
+[2010/10/01 00:47:05 614] isr        992  vad_eos :  2000  
+[2010/10/01 00:47:05 615] isr        897  enable_vad [in]  
+[2010/10/01 00:47:05 621] isr        929  vad enabled!  2000  10000  
+[2010/10/01 00:47:05 623] isr        932  enable_vad [out]  
+[2010/10/01 00:47:05 623] isr        998  vad_set [out] | ret =  0  
+[2010/10/01 00:47:05 624] isr        1174 cur_engine_type =   local  
+[2010/10/01 00:47:05 624] isr        1003 local_session_begin  
+[2010/10/01 00:47:05 663] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:47:05 666] isr        1546 6400  1  
+[2010/10/01 00:47:05 668] isr        1550 once_bytes:   6400  
+[2010/10/01 00:47:05 711] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:47:05 732] isr        1546 6400  2  
+[2010/10/01 00:47:05 755] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:47:05 768] isr        1546 6400  2  
+[2010/10/01 00:47:05 782] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:47:05 785] isr        1546 6400  2  
+[2010/10/01 00:47:05 797] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:47:05 806] isr        1546 6400  2  
+[2010/10/01 00:47:05 810] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:47:05 813] isr        1546 6400  2  
+[2010/10/01 00:47:05 826] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:47:05 829] isr        1546 6400  2  
+[2010/10/01 00:47:05 840] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:47:05 846] isr        1546 6400  2  
+[2010/10/01 00:47:05 849] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:47:05 858] isr        1546 6400  2  
+[2010/10/01 00:47:05 861] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:47:05 864] isr        1546 6400  2  
+[2010/10/01 00:47:05 873] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:47:05 876] isr        1546 6400  2  
+[2010/10/01 00:47:05 886] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:47:05 889] isr        1546 6400  2  
+[2010/10/01 00:47:05 898] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:47:05 905] isr        1546 6400  2  
+[2010/10/01 00:47:05 914] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:47:05 918] isr        1546 6400  2  
+[2010/10/01 00:47:05 929] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:47:05 933] isr        1546 6400  2  
+[2010/10/01 00:47:05 943] isr        1535 ASR_MSG_AUW,   local  
+[2010/10/01 00:47:05 949] isr        1546 0  4  
+[2010/10/01 00:47:05 950] isr        1579 aud end, USER  
+[2010/10/01 00:47:06 046] isr        845  [aud] speech start  
+[2010/10/01 00:47:06 141] isr        855  [aud] speech end  
+[2010/10/01 00:47:06 197] isr        1618 ASR_MSG_GRSLT,   local  
+[2010/10/01 00:47:06 205] isr        1297 0  nil  2  
+[2010/10/01 00:47:06 318] isr        1618 ASR_MSG_GRSLT,   local  
+[2010/10/01 00:47:06 319] isr        1297 0  nil  2  
+[2010/10/01 00:47:06 434] isr        1618 ASR_MSG_GRSLT,   local  
+[2010/10/01 00:47:06 442] isr        1297 0  nil  2  
+[2010/10/01 00:47:06 458] isr        759  local_cbmsg_handler  ,msg=  406  param1=  nil  
