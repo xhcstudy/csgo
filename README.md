@@ -27,8 +27,11 @@
 
 ui设计图片素材文件在qt\cs1_6\pic下，视频素材有点大没有上传，素材一般通过label显示，包括图片和视频，代码主要采用的都是通过按键跳转page实现，下面主要介绍自己碰到的一些问题
 
-1、因为我是第一次使用qt，很多操作都是现学，然后很多的操作并不是特别熟练，要实现自己想要的功能就有时候会遇到一些困难，例如我在实现记住密码功能的时候，老师只告诉了我们怎么实现登录的一个界面，并没有记住密码功能，我是自己寻找到了一个check box 模块，并得知了是运行的时候点击那个控件就会传过去一个信号，然后写槽函数的时候就在这个信号上下功夫，然后定义了三个全局变量，check1来记录进入槽函数的次数，remUser记录输入的账户名，remPassword记录输入的密码，每次进入槽函数check1++，当check1==2的时候，将check1置为0并且将remUser和remPassword改为空字符串，最后配合打开登录界面的按钮和登录按钮的槽函数实现了记住密码功能；
-![image](https://user-images.githubusercontent.com/99958269/177993217-f04b2a92-439c-42ac-b60b-3265401dffd4.png)
+1、因为我是第一次使用qt，很多操作都是现学，然后很多的操作并不是特别熟练，要实现自己想要的功能就有时候会遇到一些困难，例如我在实现记住密码功能的时候，老师只告诉了我们怎么实现登录的一个界面，并没有记住密码功能，我是自己寻找到了一个check box 模块，并得知了是运行的时候点击那个控件就会传过去一个信号，然后写槽函数的时候就在这个信号上下功夫，然后定义了三个全局变量，check1来记录进入槽函数的次数，remUser记录输入的账户名，remPassword记录输入的密码，每次进入槽函数check1++，当check1==2的时候，将check1置为0并且将remUser和remPassword改为空字符串，最后配合打开登录界面的按钮和密码框的槽函数实现了记住密码功能；
+![image](https://user-images.githubusercontent.com/99958269/178135484-bd46775e-287a-481b-99d8-cf9e2b9110f9.png)
+![image](https://user-images.githubusercontent.com/99958269/178135493-d230ede6-3ee3-4226-86b4-2cf3f2a6a968.png)
+
+
 
 
 2、播放视频是使用的mplay，QString args=QString("mplayer -slave -quiet -x 800 -y 600 -wid %1 %2").arg(ui->labelcsgoexe->winId()).arg(playID)，playID是一个字符串，是自己想要播放视频的文件路径，然后我们想要通过进度条记录播放视频的进度，采用了一个定时器，不断读取mplay的信息（因为里面会包含视频已经播放的百分比），然后我们会将读取到的信息处理，处理函数是timer_out，将mplay的信息存放在str中，然后只要str中contains“ANS_PERCENT_POSITION”（因为记录百分比的格式是"ANS_PERCENT_POSITION = %d\n"），就用字符串链表分割函数split进行处理，通过两次分割会得到当前进度的百分比，例如“10”，然后通过toInt函数将其转化成整形即可；
